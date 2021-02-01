@@ -1,0 +1,17 @@
+{
+  "name": "frankie/parser",
+  "autoload": {
+    "psr-4": {
+      "Frankie\\Parser\\": "src"
+    }
+  },
+  "require": {
+    "php-ds/php-ds": "^1.2",
+    "frankie/request": "^1.0",
+    "ext-json": "*",
+    "ext-simplexml": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.4"
+  }
+}
